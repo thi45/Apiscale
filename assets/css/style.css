@@ -198,11 +198,11 @@ header {
   flex-direction: column;
   gap: 40px;
 }
-.secao-trilhas {
+
   /* =========================================================
      CARD
   ========================================================= */
-}
+
 .secao-trilhas .card-trilha {
   width: 100%;
   min-height: 280px;
@@ -223,19 +223,19 @@ header {
   border-color: rgba(69, 124, 255, 0.7);
   box-shadow: 0 0 40px rgba(27, 136, 255, 0.2), inset 0 0 30px rgba(27, 136, 255, 0.06);
 }
-.secao-trilhas .card-trilha {
+
   /* =========================================================
      CARD INVERTIDO
   ========================================================= */
-}
+
 .secao-trilhas .card-trilha.direita {
   flex-direction: row-reverse;
 }
-.secao-trilhas .card-trilha {
+
   /* =========================================================
      ÁREA DO DRAGÃO
   ========================================================= */
-}
+
 .secao-trilhas .card-trilha .area-dragao {
   width: 260px;
   display: flex;
@@ -250,11 +250,11 @@ header {
      object-fit: contain;
   filter: drop-shadow(0 0 20px rgba(27, 136, 255, 0.45));
 }
-.secao-trilhas .card-trilha {
+
   /* =========================================================
      CONTEÚDO
   ========================================================= */
-}
+
 .secao-trilhas .card-trilha .conteudo-trilha {
   flex: 1;
 }
@@ -281,11 +281,11 @@ header {
   margin-bottom: 30px;
   max-width: 600px;
 }
-.secao-trilhas .card-trilha {
+
   /* =========================================================
      PROGRESSO
   ========================================================= */
-}
+
 .secao-trilhas .card-trilha .titulo-progresso {
   display: flex;
   justify-content: space-between;
@@ -308,11 +308,11 @@ header {
   background: linear-gradient(90deg, #1B39AD, #1B88E0);
   box-shadow: 0 0 15px rgba(27, 136, 255, 0.6);
 }
-.secao-trilhas .card-trilha {
+
   /* =========================================================
      BOTÃO
   ========================================================= */
-}
+
 .secao-trilhas .card-trilha button {
   padding: 14px 28px;
   border-radius: 999px;
@@ -447,6 +447,8 @@ main {
 /* =========================================================
    FOOTER
 ========================================================= */
+
+
 footer {
   background: linear-gradient(180deg, rgb(8, 15, 35) 0%, rgb(5, 10, 25) 100%);
   border-top: 1px solid rgba(69, 124, 255, 0.25);
@@ -501,9 +503,6 @@ footer::before {
   font-size: 3.5rem;
 }
 
-/* =========================================================
-   HOVER SUAVE
-========================================================= */
 .stats-custom .col-6:hover,
 .stats-custom .col-md-3:hover {
   transform: translateY(-4px);
@@ -514,6 +513,7 @@ footer::before {
 .stats-custom .col-md-3:hover i {
   filter: drop-shadow(0 0 10px rgba(0, 210, 255, 0.6));
 }
+
 
 .stat-item h3 {
   font-size: 3rem;
@@ -626,3 +626,19 @@ footer::before {
     max-width: 100%;
   }
 }/*# sourceMappingURL=style.css.map */
+
+.margem-nos {
+    padding: 1.5rem !important;
+}
+
+.navazulbg {
+    background-color: #0F172A !important;
+}
+
+.fontenav {
+    color: #ffffff !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    text-shadow: 0 0 8px rgba(0, 210, 255, 0.2);}
+
